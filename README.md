@@ -49,7 +49,7 @@ kubectl logs -l app.kubernetes.io/instance=shipping-release
 - Chart Optimization: Cleaned up the default helm create boilerplate by removing unused files (like tests/ and NOTES.txt) to maintain a lightweight deployment.
 
 ##  Proof of Work
-- The /screenshots directory contains visual evidence of the successful deployment.
+- The **[screenshots/](./screenshots)** directory contains visual evidence of the successful deployment.
 
 Created by: Kiran
 
