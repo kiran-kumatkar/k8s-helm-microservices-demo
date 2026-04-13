@@ -8,11 +8,9 @@ This project is a hands-on learning lab created to master the fundamentals of **
 
 ##  Project Structure
 ```text
-k-commerce/
-├── payments/        # Helm chart for the Payment Microservice
-├── shipping/        # Helm chart for the Shipping Microservice
-├── screenshots/     # Visuals of deployment and logs
-└── README.md        # Project documentation
+- **[payments/](./payments)**: Helm chart for the Payment Microservice.
+- **[shipping/](./shipping)**: Helm chart for the Shipping Microservice.
+- **[screenshots/](./screenshots)**: Visual proof of deployment and logs.
 
 
 Getting Started
