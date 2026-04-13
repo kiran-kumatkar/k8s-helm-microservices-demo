@@ -26,6 +26,7 @@ helm install payments-release ./payments
 
 # Deploy the Shipping Microservice
 helm install shipping-release ./shipping
+```
 
 3. Verification
 Verify that the pods are running and check the service logs to see the printed messages:
@@ -39,7 +40,7 @@ kubectl logs -l app.kubernetes.io/instance=payments-release
 
 # View logs for the Shipping service
 kubectl logs -l app.kubernetes.io/instance=shipping-release
-
+```
 ##  Lessons Learned & Troubleshooting
 - This project involved solving several real-world DevOps scenarios:
 
