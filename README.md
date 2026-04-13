@@ -7,7 +7,6 @@ This project is a hands-on learning lab created to master the fundamentals of **
 - Understand the core directory structure: `Chart.yaml`, `values.yaml`, and `templates/`.
 
 ##  Project Structure
-```text
 - **[payments/](./payments)**: Helm chart for the Payment Microservice.
 - **[shipping/](./shipping)**: Helm chart for the Shipping Microservice.
 - **[screenshots/](./screenshots)**: Visual proof of deployment and logs.
