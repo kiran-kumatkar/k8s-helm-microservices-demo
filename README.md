@@ -42,7 +42,7 @@ kubectl logs -l app.kubernetes.io/instance=payments-release
 kubectl logs -l app.kubernetes.io/instance=shipping-release
 ```
 ##  Lessons Learned & Troubleshooting
-- This project involved solving several real-world DevOps scenarios:
+  This project involved solving several real-world DevOps scenarios:
 
 - Template Debugging: Fixed nil pointer evaluating interface errors by ensuring values.yaml properly defined all keys used in the templates.
 
